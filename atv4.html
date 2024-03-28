@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atividade 4</title>
+        <link rel="stylesheet" href="css/mystyle.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <ul>
+            <li><a href="atv1.html">atv1</a></li>
+            <li><a href="atv2.html">atv2</a></li>
+            <li><a href="atv3.html">atv3</a></li>
+            <li><a href="#">atv4</a></li>
+            <li><a href="atv5.html">atv5</a></li>
+            <li><a href="atv6.html">atv6</a></li>
+            <li><a href="atv7.html">atv7</a></li>
+            <li><a href="atv8.html">atv8</a></li>
+        </ul>
+        <div id="elemento" onmouseover="onmouse()">Passe o mouse aqui</div> <!--altera um elemento quando o mouse passa em cima dele-->
+        <input type="text" id="campo" onfocus="foco()"><!--altera um elemento quando o usuário o seleciona-->
+        <br>
+        <select id="select" onchange="Selecao()"><!--acionado quando o valor de um elemento muda-->>
+            <option value="opcao1">Opção 1</option>
+            <option value="opcao2">Opção 2</option>
+            <option value="opcao3">Opção 3</option>
+        </select>
+        <br>
+        <div id="dblclick" ondblclick="cliqueduplo()">Clique aqui duas vezes</div><!--acionado quando clicado 2x com o mouse-->
+        <p>Selecione o campo e pressione uma tela</p>
+        <input type="text" id="tecla1" onkeydown="tecla(event)"><!--acionado quando uma tecla é pressionada-->
+        <div id="ultima-tecla"></div>
+    </body>
+</html>

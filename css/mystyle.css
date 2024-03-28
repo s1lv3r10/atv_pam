@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+  }
+    li {
+        font-size: 20px;
+        display: inline-block;
+        padding: 10px;
+    }
+    li:hover{
+        background-color: aliceblue;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+h1{
+    padding: 15px;
+}
+h5{
+    padding: 10px;
+    font-size: 14px;
+}
+p{
+    padding: 10px;
+}
+button{
+    margin: 10px;
+    padding: 5px;
+}
+#elemento, #campo, #select, #dblclick, #tecla1, #atvd5, #nomeada{
+    margin: 10px;
+}
+#altas, #letras, #construir, #nome, #arrow, #conta, #conta1, #greeting, .num{
+    margin: 10px;
+}

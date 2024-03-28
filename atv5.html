@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atividade 5</title>
+        <link rel="stylesheet" href="css/mystyle.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <ul>
+            <li><a href="atv1.html">atv1</a></li>
+            <li><a href="atv2.html">atv2</a></li>
+            <li><a href="atv3.html">atv3</a></li>
+            <li><a href="atv4.html">atv4</a></li>
+            <li><a href="#">atv5</a></li>
+            <li><a href="atv6.html">atv6</a></li>
+            <li><a href="atv7.html">atv7</a></li>
+            <li><a href="atv8.html">atv8</a></li>
+        </ul>
+        <h5>Função nomeada</h5>
+        <p id="nomeada"></p>
+        <h5>Função nomeada com parâmetro de retorno</h5>
+        <p id="atvd5"></p>
+        <h5>Função com construtor</h5>
+        <p id="construir"></p>
+        <h5>Função Literal (Variável)</h5>
+        <input type="text" id="nome" value="">
+        <button onclick="exibirsaudacao()">Clique para saudar</button>
+        <p id="greeting"></p>
+        <h5>Arrow function</h5>
+        <p id="arrow"></p>
+        <script>
+            cumprimentar();
+            var raio = 5;
+            var area = calcularArea(raio);
+            document.getElementById('atvd5').innerText = "A área é: " + area;
+            var pessoa = new construtor("Anna Luiza", 29);
+            document.getElementById('construir').innerText = pessoa.apresentar();
+            document.getElementById('arrow').innerText = "O dobro de 4 é: " + dobrar(4);
+        </script>
+    </body>
+</html>
